@@ -1,0 +1,26 @@
+﻿# Datos originales (formato pat)
+*.pat
+
+# Datos convertidos (Parquet, NumPy)
+*.parquet
+*.npy
+
+# Resultados de entrenamiento (pesos, historiales y predicciones)
+historial_*.npy
+predicciones_*.npy
+pesos_*.weights.h5
+
+# Archivoas temporales de python
+__pycache__/
+*.pyc
+*.pyo
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# Cuadernos de Jupyter - puntos de control
+.ipynb_checkpoints/
+
+# Logs
+*.log
